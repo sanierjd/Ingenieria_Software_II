@@ -17,13 +17,14 @@ public class OchoPuzzle {
 
     public static void main(String[] args) {
         Scanner reader = new Scanner(System.in);
-        
+       /* 
         System.out.println("Te gustaria");
         System.out.println("1 - Crear un 8puzzle randomico?");
         System.out.println("2 - Ingresar una configuracion manual de 8 puzzle?");
         
         int seleccion = reader.nextInt();
-        reader.nextLine();
+        reader.nextLine();*/
+        int seleccion=Integer.parseInt(JOptionPane.showInputDialog("Ingresar un valor /n 1.- Para crear un puzzle randomico /n 2.- Ingresar Manualmente"));
         
         TableroPuzzle tableroPrueba = new TableroPuzzle("012345678", 2);
         while(seleccion != 1 && seleccion != 2){

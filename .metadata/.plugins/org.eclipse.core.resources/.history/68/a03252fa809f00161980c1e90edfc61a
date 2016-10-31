@@ -24,7 +24,7 @@ public class OchoPuzzle {
         
         int seleccion = reader.nextInt();
         reader.nextLine();*/
-        int seleccion=Integer.parseInt(JOptionPane.showInputDialog("Ingresar un valor \n 1.- Para crear un puzzle randomico \n 2.- Ingresar Manualmente"));
+        int seleccion=Integer.parseInt(JOptionPane.showInputDialog("Ingresar un valor /n 1.- Para crear un puzzle randomico /n 2.- Ingresar Manualmente"));
         
         TableroPuzzle tableroPrueba = new TableroPuzzle("012345678", 2);
         while(seleccion != 1 && seleccion != 2){
